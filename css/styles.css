@@ -1,0 +1,68 @@
+/* ==========================
+    Universal Styling
+============================= */
+
+* {
+    box-sizing: border-box;
+}
+
+/* ==========================
+    Element Selector Styling 
+============================= */
+
+body {
+    font-family: 'Rubik', sans-serif;
+    line-height: 1.6;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+/* ==========================
+    Main Page Styling 
+============================= */
+
+/* ---- Navigation ---- */
+
+.main-nav a {
+    display: block;
+    padding: 8px 0;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 10px;    
+
+    background-color: red;
+}
+
+/* ---- Banner ---- */
+
+.banner {
+    background: url("../images/surfers-paradise-banner.jpg") no-repeat center;
+    background-size: cover;
+    width: 100%;
+    margin: auto;
+    height: 300px;
+
+}
+
+
+
+
+/* ==========================
+    Clearfix 
+============================= */
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
