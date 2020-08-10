@@ -35,12 +35,9 @@ img {
 
 .main-nav a {
     display: block;
-    padding: 8px 0;
     width: 90%;
     margin: auto;
     margin-bottom: 10px;    
-
-    background-color: red;
 }
 
 /* ---- Banner ---- */
@@ -60,21 +57,6 @@ img {
     margin: auto;
 }
 
-.gold,
-.iconic,
-.stunning {
-    background-color: wheat;
-    box-shadow: 5px 0 10px 2px black;
-    border-radius: 15px;
-    padding: 15px;
-    margin-top: 15px;
-}
-
-
-
-
-
-
 
 /* ---- Footer ---- */
 
@@ -88,18 +70,25 @@ img {
     margin-top: 15px;
 }
 
-.bottom-name {
-    align-self: center;
-    margin: 0;
-    margin-bottom: 5px;
-}
-
 
 /* ==========================
     Media Queries 
 ============================= */
 
+@media (min-width: 768px) {
+    .main-header,
+    .main-nav {
+        display: flex;
+        align-items: center;
+    }
 
+    .main-header {
+        flex-direction: column;
+    }
+
+
+
+}
 
 
 
